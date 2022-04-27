@@ -13,13 +13,12 @@
 	<script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
-	<!-- <h1>You logged in!</h1> -->
-	<!-- <p>${sessionScope.user_id}</p> -->
-	<!-- <p><a href="/logout">Logout</a></p> -->
 	<div class="grid bg_blue">
 		<div class="container grid col3 align_center justify_center">
 			<h1 class="col_white1">Movies</h1>
 			<div class="flex col2 gap2">
+				<a class="col_white1" href="/movies/new">Add a movie</a>
+				<a class="col_white1" href="/movies">Watched</a>
 				<a class="col_white1" href="/logout">Logout</a>
 			</div>
 		</div>
