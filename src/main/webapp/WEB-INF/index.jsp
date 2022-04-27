@@ -23,10 +23,11 @@
 			</div>
 		</div>
 	</div>
+	<h1>testing: ${user_id}</h1>
 	<div class="grid">
         <c:forEach var="i" items="${movies}">
             <c:out value="${i.m_name}"></c:out>
-			<img src="${i.image}" alt="${i.m_name}" width="250" height="250">
+			<a href="/movies/${i.id}"><img src="${i.image}" alt="${i.m_name}" width="250" height="250"></a>
         </c:forEach>
 	</div>
 </body>
